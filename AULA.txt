@@ -59,3 +59,39 @@ db.unicorns.update({
 }, { //set
   	upsert: true //cria caso nao exista
 })
+
+===============================================================
+
+EX PAGINA 30 DO SLIDE "AULA 10"
+
+use cadastro
+
+db.createCollection("clientes")
+
+db.clientes.ensureIndex({ nome: 1, cpf: 1})
+
+db.clientes.insert({
+	nome: "Artur Modesto",
+	dtns: new Date(1956,0,2,15,23),
+	endereco: {logradouro: "Av. Lins Vaconcelos", numero: 526, cidade: "Santo andre", cep: "09280550"},
+	cpf: "42455741866"
+})
+
+//busca por cpf
+db.clientes.find({
+	cpf: {$eq: "42455741866"}
+}, { //projection
+  	nome:1,
+  	cpf:1,
+  	_id:0
+})
+
+//todos antes 1990 ordenado
+db.clientes.find({
+	dtns: {$lte: new Date(1990)}
+}).sort({dtns: 1})
+
+//Cidade
+db.clientes.find({
+	"endereco.cidade": {$eq: "Santo andre"}
+}).sort({nome: 1})
