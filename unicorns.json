@@ -1,0 +1,143 @@
+{ 
+    "_id" : ObjectId("55ff39579c6503d1722042bb"), 
+    "name" : "Horny", 
+    "dob" : ISODate("1992-03-13T10:47:00.000+0000"), 
+    "loves" : [
+        "carrot", 
+        "papaya"
+    ], 
+    "weight" : 600.0, 
+    "gender" : "m", 
+    "vampires" : 63.0
+}
+{ 
+    "_id" : ObjectId("55ff39579c6503d1722042bc"), 
+    "name" : "Aurora", 
+    "dob" : ISODate("1991-01-24T15:00:00.000+0000"), 
+    "loves" : [
+        "carrot", 
+        "grape"
+    ], 
+    "weight" : 450.0, 
+    "gender" : "f", 
+    "vampires" : 43.0
+}
+{ 
+    "_id" : ObjectId("55ff39579c6503d1722042bd"), 
+    "name" : "Unicrom", 
+    "dob" : ISODate("1973-02-10T01:10:00.000+0000"), 
+    "loves" : [
+        "energon", 
+        "redbull"
+    ], 
+    "weight" : 984.0, 
+    "gender" : "m", 
+    "vampires" : 182.0
+}
+{ 
+    "_id" : ObjectId("55ff39579c6503d1722042be"), 
+    "name" : "Roooooodles", 
+    "dob" : ISODate("1979-08-18T21:44:00.000+0000"), 
+    "loves" : [
+        "apple"
+    ], 
+    "weight" : 575.0, 
+    "gender" : "m", 
+    "vampires" : 99.0
+}
+{ 
+    "_id" : ObjectId("55ff39579c6503d1722042bf"), 
+    "name" : "Solnara", 
+    "dob" : ISODate("1985-07-04T05:01:00.000+0000"), 
+    "loves" : [
+        "apple", 
+        "carrot", 
+        "chocolate"
+    ], 
+    "weight" : 550.0, 
+    "gender" : "f", 
+    "vampires" : 80.0
+}
+{ 
+    "_id" : ObjectId("55ff39579c6503d1722042c0"), 
+    "name" : "Ayna", 
+    "dob" : ISODate("1998-03-07T11:30:00.000+0000"), 
+    "loves" : [
+        "strawberry", 
+        "lemon"
+    ], 
+    "weight" : 733.0, 
+    "gender" : "f", 
+    "vampires" : 40.0
+}
+{ 
+    "_id" : ObjectId("55ff39579c6503d1722042c1"), 
+    "name" : "Kenny", 
+    "dob" : ISODate("1997-07-01T13:42:00.000+0000"), 
+    "loves" : [
+        "grape", 
+        "lemon"
+    ], 
+    "weight" : 690.0, 
+    "gender" : "m", 
+    "vampires" : 39.0
+}
+{ 
+    "_id" : ObjectId("55ff39579c6503d1722042c2"), 
+    "name" : "Raleigh", 
+    "dob" : ISODate("2005-05-03T03:57:00.000+0000"), 
+    "loves" : [
+        "apple", 
+        "sugar"
+    ], 
+    "weight" : 421.0, 
+    "gender" : "m", 
+    "vampires" : 2.0
+}
+{ 
+    "_id" : ObjectId("55ff39579c6503d1722042c3"), 
+    "name" : "Leia", 
+    "dob" : ISODate("2001-10-08T17:53:00.000+0000"), 
+    "loves" : [
+        "apple", 
+        "watermelon"
+    ], 
+    "weight" : 601.0, 
+    "gender" : "f", 
+    "vampires" : 33.0
+}
+{ 
+    "_id" : ObjectId("55ff39579c6503d1722042c4"), 
+    "name" : "Pilot", 
+    "dob" : ISODate("1997-03-01T08:03:00.000+0000"), 
+    "loves" : [
+        "apple", 
+        "watermelon"
+    ], 
+    "weight" : 650.0, 
+    "gender" : "m", 
+    "vampires" : 54.0
+}
+{ 
+    "_id" : ObjectId("55ff39579c6503d1722042c5"), 
+    "name" : "Nimue", 
+    "dob" : ISODate("1999-12-20T18:15:00.000+0000"), 
+    "loves" : [
+        "grape", 
+        "carrot"
+    ], 
+    "weight" : 540.0, 
+    "gender" : "f"
+}
+{ 
+    "_id" : ObjectId("55ff39579c6503d1722042c6"), 
+    "name" : "Dunx", 
+    "dob" : ISODate("1976-07-18T21:18:00.000+0000"), 
+    "loves" : [
+        "grape", 
+        "watermelon"
+    ], 
+    "weight" : 704.0, 
+    "gender" : "m", 
+    "vampires" : 165.0
+}

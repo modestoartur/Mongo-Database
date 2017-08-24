@@ -1,0 +1,34 @@
+- MongoChef
+- comnado mongod no CMD
+
+
+
+== SCRIPT EM MONGO ==
+
+use fiap
+
+dc.createCollection("unicorns")
+
+
+db.unicorns.find({
+	vampires: {$exists: 0}
+}, { //projection
+  	name:1,
+  	dob:1,
+  	loves:1,
+  	_id:0
+})
+
+
+db.unicorns.update({
+	name: {$regex: "^Ro+dles$"}
+}, { //set
+  	$set: {name: "Roodles"}
+})
+
+
+db.unicorns.update({
+	name: {$eq: "Roodles"}
+}, { //set
+  	$inc: {vampires: 3}
+})
