@@ -4,7 +4,6 @@
 
 
 == SCRIPT EM MONGO ==
-
 use fiap
 
 dc.createCollection("unicorns")
@@ -49,4 +48,14 @@ db.unicorns.update({
 	weight: {$gt: 600}
 }, { //set
   	$inc: {weight: -10}
+})
+
+//Alterar as mortes da uni do sexo feminino
+db.unicorns.update({
+	name: {$eq: "Uni"},
+	gender: {$eq: "f"},
+}, { //set
+  	$inc: {vampires: 10}
+}, { //set
+  	upsert: true //cria caso nao exista
 })
