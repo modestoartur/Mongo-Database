@@ -32,3 +32,21 @@ db.unicorns.update({
 }, { //set
   	$inc: {vampires: 3}
 })
+
+
+//Emagrecer 10lbs todos com mais de 600lbs
+db.unicorns.update({
+	weight: {$gt: 600}
+}, { //set
+  	$inc: {weight: -10}
+}, { 
+  	multi: true
+})
+
+
+//Emagrecer 10lbs todos com mais de 600lbs
+db.unicorns.update({
+	weight: {$gt: 600}
+}, { //set
+  	$inc: {weight: -10}
+})
